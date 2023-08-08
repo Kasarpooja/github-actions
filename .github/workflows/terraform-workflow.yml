@@ -2,8 +2,8 @@ name: Deploy Infrastructure
 
 on:
   push:
-    # branches:
-    #   - feature/github-action
+     branches:
+       - feature/github-action
 
 jobs:
   tf_fmt:
